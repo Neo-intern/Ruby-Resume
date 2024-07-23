@@ -1,0 +1,354 @@
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <%= image_tag "logo.jpg", alt:"", style: "border-radius: 50%;" %>
+        <h1 class="sitename">Neo</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <%= image_tag 'hero-img.jpg', alt: '', data: { aos: 'fade-in' } %>
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+        <h2>I am Neo Mthimkulu</h2>
+        <p><span class="typed" data-typed-items="Ruby Developer, .NET Developer, Software Engineering Intern"></span></p>
+      </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-md-6">
+
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <%= image_tag "profile-img.jpg", class: "img-fluid", alt:"" %>
+              </div>
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Neo Mthimkulu</span></p>
+                <p><strong>Profile: </strong> <span>Software Engineer</span></p>
+                <p><strong>Email: </strong> <span>thembineo13@gmail.com</span></p>
+                <p><strong>Phone: </strong> <span>(081) 388-9585</span></p>
+              </div>
+            </div>
+
+            <div class="skills-content skills-animation">
+
+              <h5>Skills</h5>
+              
+              <div class="progress">
+                <span class="skill"><span>ASP.NET Core MVC</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>Ruby on Rails</span> <i class="val">40%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              
+
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                My name is Neo Mthimkulu, I am an aspiring Software Engineer. At this point I cannot say what I specialize in
+                but I do know I really like web development. Its fun and challenging at times but the challenge feels rewarding so I like it.
+              </p>
+              <p>
+                I also love software development. It's creative, and constantly evolving.
+                There's always something new to learn and a new problem to solve.
+                Despite the challenges that development presents it always feels like magic when you press F5 and everything runs smoothly after a week of
+                racking your brain fixing bugs
+              </p>
+              <p>
+                I have recently begun working with Ruby on rails developing web apps and I have been having a blast doing that. Creating a web app that just tweets for you
+                on the Ruby platform was quite a fun experience for me. Seeing my tweets write themselves was quite a mind blowing experience. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Relevant Information about me as a Graduate Software Developer and Software Engineering Intern</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Neo Mthimkulu</h4>
+              <p><em>Passionate and driven Software Engineer with experience in Web development and developing web apps that can easily interact with any large online platform. Also Experience in full stack development on the ASP.NET framework</em></p>
+              <ul>
+                <li>10 Havenga Cres. , Oranjesig, Bloemfontein</li>
+                <li>(081) 388-9585</li>
+                <li>thembineo13@gmail.com</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Science Information Technology &amp; Major in Computer Science</h4>
+              <h5>2020 - 2023</h5>
+              <p><em>University Of the Free State</em></p>
+              <p><em>Personal projects and University Projects </em></p>
+              <ul>
+                <li>Developed a personal nance tracking application with a mobile interface (using REACT Native)
+                  and a web dashboard (using ASP.NET MVC).</li>
+                <li>Designed and implemented a web-based inventory management system (ASP.NET MVC) for a smallbusiness. The system utilizes a relational database to store and manage product information, stock levels, and order
+                  processing. Implemented functionalities for low-stock alerts, order tracking, and reporting. </li>
+                <li>Created an educational quiz platform with a mobile app and a web interface(ASP.NET MVC). The application utilizes data structures and algorithms for ecient question management and
+                  scoring. Users can access quizzes on various subjects, track their progress, and compete on leaderboards.</li>
+                <li>Designed and built a web application (ASP.NET MVC) that analyzes social media sentiment by
+                  scraping data</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+          <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Software Engineer Intern</h4>
+              <h5>2024 - Present</h5>
+              <p><em>Bitcube </em></p>
+              <ul>
+                <li>Designed and implemented a scheduled tweet web app.</li>
+                <li>Used the Ruby on rails platform to create secure web authentication system with the devise gem </li>
+                <li>Helped fix the layout of a large client website</li>
+                <li>Created this current website throughout my internship</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+            <div class="resume-item">
+              <h4>Student Assistant</h4>
+              <h5>2022 - 2023</h5>
+              <p><em>University of the free state</em></p>
+              <ul>
+                <li>Oversaw Tests while students wrote</li>
+                <li>Guided and helped teach students coding commands in excel</li>
+                <li>Taught students the use of office products</li>
+              </ul>
+            </div><!-- End Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>What I offer to your company and/or business.</p>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-browser-chrome"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Web Development</h3>
+              </a>
+              <p>I offer both frontend and backend work. Delivering fast and effiecient solutions to your problems</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-android2"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Android Development</h3>
+              </a>
+              <p>Designing and creating android applications</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-database"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Database Maintenance</h3>
+              </a>
+              <p>Creation and maintenace of SQL and nosql databases. </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>10 Havenga Cres. ,Ornajesig, Bloemfontein</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>+27 81 388 9585</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>thembineo13@gmail.com</p>
+                </div>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <form data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+
+      </div>
+
+    </section><
+
+  </main>
+
+  <footer id="footer" class="footer accent-background">
+
+    <div class="container">
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/neo-m-abb0b0130/"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
